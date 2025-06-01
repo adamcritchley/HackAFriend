@@ -5787,7 +5787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-175/LTST-S270TBKT.pdf"
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-230/LTST-C191TBKT.pdf"
 			(at 110.49 139.7 0)
 			(effects
 				(font
@@ -5805,7 +5805,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "LTST-S270TBKT"
+		(property "MP" "LTST-C191TBKT"
 			(at 110.49 139.7 90)
 			(effects
 				(font
@@ -7238,7 +7238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-175/LTST-S270TBKT.pdf"
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-230/LTST-C191TBKT.pdf"
 			(at 99.06 139.7 0)
 			(effects
 				(font
@@ -7256,7 +7256,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "LTST-S270TBKT"
+		(property "MP" "LTST-C191TBKT"
 			(at 99.06 139.7 90)
 			(effects
 				(font
