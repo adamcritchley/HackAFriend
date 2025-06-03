@@ -2373,45 +2373,47 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS"
+		(symbol "PTS_647_SN50_SMTR2_LFS:PTS_647_SN50_SMTR2_LFS"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "PTS526 SK15 SMTR2 LFS"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "PTS526_SK15_SMTR2_LFS:SMT_FS"
-				(at 16.51 13.97 0)
+			(property "Reference" "S"
+				(at -2.54 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "PTS526 SK15 SMTR2 LFS"
-				(at 16.51 13.97 0)
+			(property "Value" "PTS_647_SN50_SMTR2_LFS"
+				(at -2.54 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "PTS_647_SN50_SMTR2_LFS:SW_PTS_647_SN50_SMTR2_LFS"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
@@ -2425,28 +2427,130 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "PTS526 SK15 SMTR2 LFS"
-				(at 0 0 0)
+			(property "DigiKey_Part_Number" "PTS647SN50SMTR2LFSTR-ND"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SMT_FS"
-				(at 0 0 0)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=snap"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "PTS526_SK15_SMTR2_LFS_0_1"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "5.0 mm"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=eda"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "4 Apr 22"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "C&K"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "PTS 647 SN50 SMTR2 LFS"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "PTS 647 SN50 SMTR2 LFS"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "C&K"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PTS_647_SN50_SMTR2_LFS_0_1"
 				(polyline
 					(pts
-						(xy 13.97 5.08) (xy 13.97 -2.54)
+						(xy 3.81 1.27) (xy 3.81 -6.35)
 					)
 					(stroke
 						(width 0.127)
@@ -2458,7 +2562,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 2.54) (xy 16.51 2.54)
+						(xy 3.81 -1.27) (xy 6.35 -1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -2470,7 +2574,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 -2.54) (xy 26.67 -2.54)
+						(xy 3.81 -6.35) (xy 16.51 -6.35)
 					)
 					(stroke
 						(width 0.127)
@@ -2482,7 +2586,7 @@
 				)
 				(polyline
 					(pts
-						(xy 16.51 3.81) (xy 24.13 3.81)
+						(xy 6.35 0) (xy 13.97 0)
 					)
 					(stroke
 						(width 0.127)
@@ -2494,7 +2598,7 @@
 				)
 				(polyline
 					(pts
-						(xy 16.51 2.54) (xy 16.51 3.81)
+						(xy 6.35 -1.27) (xy 6.35 0)
 					)
 					(stroke
 						(width 0.127)
@@ -2506,7 +2610,7 @@
 				)
 				(polyline
 					(pts
-						(xy 16.51 0) (xy 13.97 0)
+						(xy 6.35 -3.81) (xy 3.81 -3.81)
 					)
 					(stroke
 						(width 0.127)
@@ -2518,7 +2622,7 @@
 				)
 				(polyline
 					(pts
-						(xy 16.51 -1.27) (xy 16.51 0)
+						(xy 6.35 -5.08) (xy 6.35 -3.81)
 					)
 					(stroke
 						(width 0.127)
@@ -2530,7 +2634,7 @@
 				)
 				(polyline
 					(pts
-						(xy 20.32 3.81) (xy 20.32 2.54)
+						(xy 10.16 0) (xy 10.16 -1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -2541,7 +2645,7 @@
 					)
 				)
 				(circle
-					(center 20.32 2.54)
+					(center 10.16 -1.27)
 					(radius 0.254)
 					(stroke
 						(width 0.127)
@@ -2553,7 +2657,7 @@
 				)
 				(polyline
 					(pts
-						(xy 20.32 0) (xy 20.32 -1.27)
+						(xy 10.16 -3.81) (xy 10.16 -5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -2564,7 +2668,7 @@
 					)
 				)
 				(circle
-					(center 20.32 0)
+					(center 10.16 -3.81)
 					(radius 0.254)
 					(stroke
 						(width 0.127)
@@ -2576,7 +2680,7 @@
 				)
 				(polyline
 					(pts
-						(xy 21.59 2.54) (xy 20.32 0)
+						(xy 11.43 -1.27) (xy 10.16 -3.81)
 					)
 					(stroke
 						(width 0.127)
@@ -2588,7 +2692,7 @@
 				)
 				(polyline
 					(pts
-						(xy 24.13 3.81) (xy 24.13 2.54)
+						(xy 13.97 0) (xy 13.97 -1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -2600,7 +2704,7 @@
 				)
 				(polyline
 					(pts
-						(xy 24.13 2.54) (xy 26.67 2.54)
+						(xy 13.97 -1.27) (xy 16.51 -1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -2612,7 +2716,7 @@
 				)
 				(polyline
 					(pts
-						(xy 24.13 0) (xy 24.13 -1.27)
+						(xy 13.97 -3.81) (xy 13.97 -5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -2624,7 +2728,7 @@
 				)
 				(polyline
 					(pts
-						(xy 24.13 -1.27) (xy 16.51 -1.27)
+						(xy 13.97 -5.08) (xy 6.35 -5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -2636,7 +2740,7 @@
 				)
 				(polyline
 					(pts
-						(xy 26.67 5.08) (xy 13.97 5.08)
+						(xy 16.51 1.27) (xy 3.81 1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -2648,7 +2752,7 @@
 				)
 				(polyline
 					(pts
-						(xy 26.67 0) (xy 24.13 0)
+						(xy 16.51 -3.81) (xy 13.97 -3.81)
 					)
 					(stroke
 						(width 0.127)
@@ -2660,7 +2764,7 @@
 				)
 				(polyline
 					(pts
-						(xy 26.67 -2.54) (xy 26.67 5.08)
+						(xy 16.51 -6.35) (xy 16.51 1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -2671,9 +2775,9 @@
 					)
 				)
 			)
-			(symbol "PTS526_SK15_SMTR2_LFS_1_1"
+			(symbol "PTS_647_SN50_SMTR2_LFS_1_1"
 				(pin unspecified line
-					(at 6.35 2.54 0)
+					(at -3.81 -1.27 0)
 					(length 7.62)
 					(name ""
 						(effects
@@ -2691,7 +2795,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 6.35 0 0)
+					(at -3.81 -3.81 0)
 					(length 7.62)
 					(name ""
 						(effects
@@ -2709,7 +2813,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 34.29 2.54 180)
+					(at 24.13 -1.27 180)
 					(length 7.62)
 					(name ""
 						(effects
@@ -2727,7 +2831,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 34.29 0 180)
+					(at 24.13 -3.81 180)
 					(length 7.62)
 					(name ""
 						(effects
@@ -5263,8 +5367,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS")
-		(at 123.19 93.98 0)
+		(lib_id "PTS_647_SN50_SMTR2_LFS:PTS_647_SN50_SMTR2_LFS")
+		(at 133.35 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5272,7 +5376,7 @@
 		(dnp no)
 		(uuid "0bd586bf-f756-47c0-bb1f-be5f38728034")
 		(property "Reference" "SW5"
-			(at 143.51 85.09 0)
+			(at 143.764 84.582 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5280,35 +5384,34 @@
 			)
 		)
 		(property "Value" "SPST_DPAD_DOWN"
-			(at 143.51 87.376 0)
+			(at 143.764 86.868 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "PTS526_SK15_SMTR2_LFS:SMT_FS"
-			(at 139.7 80.01 0)
+		(property "Footprint" "PTS_647_SN50_SMTR2_LFS:SW_PTS_647_SN50_SMTR2_LFS"
+			(at 133.35 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
-			(at 139.7 80.01 0)
+		(property "Datasheet" "https://www.ckswitches.com/media/2567/pts647.pdf"
+			(at 133.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 123.19 93.98 0)
+			(at 133.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,17 +5419,18 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "PTS526SK15SMTR2 LFS"
-			(at 123.19 93.98 0)
+		(property "MP" "PTS647SN50SMTR2 LFS"
+			(at 133.35 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Alt" ""
-			(at 123.19 93.98 0)
+			(at 133.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,7 +5438,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 123.19 93.98 0)
+			(at 133.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5342,11 +5446,121 @@
 			)
 		)
 		(property "MPN" ""
-			(at 123.19 93.98 0)
+			(at 133.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKey_Part_Number" "PTS647SN50SMTR2LFSTR-ND"
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=snap"
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.0 mm"
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=eda"
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "4 Apr 22"
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "C&K"
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "PTS 647 SN50 SMTR2 LFS"
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C&K"
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -5638,8 +5852,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS")
-		(at 123.19 80.01 0)
+		(lib_id "PTS_647_SN50_SMTR2_LFS:PTS_647_SN50_SMTR2_LFS")
+		(at 133.35 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5647,7 +5861,7 @@
 		(dnp no)
 		(uuid "19072324-699a-4b7c-b5da-280ef37581c4")
 		(property "Reference" "SW4"
-			(at 143.51 70.866 0)
+			(at 143.764 70.358 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5655,35 +5869,34 @@
 			)
 		)
 		(property "Value" "SPST_BTN_SELECT"
-			(at 143.51 73.406 0)
+			(at 143.764 72.898 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "PTS526_SK15_SMTR2_LFS:SMT_FS"
-			(at 139.7 66.04 0)
+		(property "Footprint" "PTS_647_SN50_SMTR2_LFS:SW_PTS_647_SN50_SMTR2_LFS"
+			(at 133.35 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
-			(at 139.7 66.04 0)
+		(property "Datasheet" "https://www.ckswitches.com/media/2567/pts647.pdf"
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 123.19 80.01 0)
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5691,17 +5904,18 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "PTS526SK15SMTR2 LFS"
-			(at 123.19 80.01 0)
+		(property "MP" "PTS647SN50SMTR2 LFS"
+			(at 133.35 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Alt" ""
-			(at 123.19 80.01 0)
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,7 +5923,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 123.19 80.01 0)
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,11 +5931,121 @@
 			)
 		)
 		(property "MPN" ""
-			(at 123.19 80.01 0)
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKey_Part_Number" "PTS647SN50SMTR2LFSTR-ND"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=snap"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.0 mm"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=eda"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "4 Apr 22"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "C&K"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "PTS 647 SN50 SMTR2 LFS"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C&K"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -5968,8 +6292,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS")
-		(at 123.19 135.89 0)
+		(lib_id "PTS_647_SN50_SMTR2_LFS:PTS_647_SN50_SMTR2_LFS")
+		(at 133.35 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5977,7 +6301,7 @@
 		(dnp no)
 		(uuid "34a4d6e4-3564-44ca-b5f0-4c2f61d2073b")
 		(property "Reference" "SW8"
-			(at 143.51 127 0)
+			(at 143.764 126.492 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5985,35 +6309,34 @@
 			)
 		)
 		(property "Value" "SPST_DPAD_START"
-			(at 143.51 129.286 0)
+			(at 143.764 128.778 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "PTS526_SK15_SMTR2_LFS:SMT_FS"
-			(at 139.7 121.92 0)
+		(property "Footprint" "PTS_647_SN50_SMTR2_LFS:SW_PTS_647_SN50_SMTR2_LFS"
+			(at 133.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
-			(at 139.7 121.92 0)
+		(property "Datasheet" "https://www.ckswitches.com/media/2567/pts647.pdf"
+			(at 133.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 123.19 135.89 0)
+			(at 133.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6021,17 +6344,18 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "PTS526SK15SMTR2 LFS"
-			(at 123.19 135.89 0)
+		(property "MP" "PTS647SN50SMTR2 LFS"
+			(at 133.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Alt" ""
-			(at 123.19 135.89 0)
+			(at 133.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6039,7 +6363,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 123.19 135.89 0)
+			(at 133.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,11 +6371,121 @@
 			)
 		)
 		(property "MPN" ""
-			(at 123.19 135.89 0)
+			(at 133.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKey_Part_Number" "PTS647SN50SMTR2LFSTR-ND"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=snap"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.0 mm"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=eda"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "4 Apr 22"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "C&K"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "PTS 647 SN50 SMTR2 LFS"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C&K"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -6176,8 +6610,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS")
-		(at 123.19 121.92 0)
+		(lib_id "PTS_647_SN50_SMTR2_LFS:PTS_647_SN50_SMTR2_LFS")
+		(at 133.35 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6185,7 +6619,7 @@
 		(dnp no)
 		(uuid "3de60ecb-7a6d-4ca8-9993-488756ce73ff")
 		(property "Reference" "SW7"
-			(at 143.51 113.03 0)
+			(at 143.764 112.522 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6193,35 +6627,34 @@
 			)
 		)
 		(property "Value" "SPST_DPAD_UP"
-			(at 143.51 115.316 0)
+			(at 143.764 114.808 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "PTS526_SK15_SMTR2_LFS:SMT_FS"
-			(at 139.7 107.95 0)
+		(property "Footprint" "PTS_647_SN50_SMTR2_LFS:SW_PTS_647_SN50_SMTR2_LFS"
+			(at 133.35 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
-			(at 139.7 107.95 0)
+		(property "Datasheet" "https://www.ckswitches.com/media/2567/pts647.pdf"
+			(at 133.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 123.19 121.92 0)
+			(at 133.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6229,17 +6662,18 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "PTS526SK15SMTR2 LFS"
-			(at 123.19 121.92 0)
+		(property "MP" "PTS647SN50SMTR2 LFS"
+			(at 133.35 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Alt" ""
-			(at 123.19 121.92 0)
+			(at 133.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,7 +6681,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 123.19 121.92 0)
+			(at 133.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6255,11 +6689,121 @@
 			)
 		)
 		(property "MPN" ""
-			(at 123.19 121.92 0)
+			(at 133.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKey_Part_Number" "PTS647SN50SMTR2LFSTR-ND"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=snap"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.0 mm"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=eda"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "4 Apr 22"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "C&K"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "PTS 647 SN50 SMTR2 LFS"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C&K"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -6417,8 +6961,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS")
-		(at 123.19 149.86 0)
+		(lib_id "PTS_647_SN50_SMTR2_LFS:PTS_647_SN50_SMTR2_LFS")
+		(at 133.35 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6426,7 +6970,7 @@
 		(dnp no)
 		(uuid "4f0c2f01-6ed5-4dca-acb5-3b4cadc0fb68")
 		(property "Reference" "SW9"
-			(at 143.51 140.97 0)
+			(at 143.764 140.462 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6434,35 +6978,34 @@
 			)
 		)
 		(property "Value" "SPST_BTN_B"
-			(at 143.51 143.256 0)
+			(at 143.764 142.748 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "PTS526_SK15_SMTR2_LFS:SMT_FS"
-			(at 139.7 135.89 0)
+		(property "Footprint" "PTS_647_SN50_SMTR2_LFS:SW_PTS_647_SN50_SMTR2_LFS"
+			(at 133.35 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
-			(at 139.7 135.89 0)
+		(property "Datasheet" "https://www.ckswitches.com/media/2567/pts647.pdf"
+			(at 133.35 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 123.19 149.86 0)
+			(at 133.35 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6470,17 +7013,18 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "PTS526SK15SMTR2 LFS"
-			(at 123.19 149.86 0)
+		(property "MP" "PTS647SN50SMTR2 LFS"
+			(at 133.35 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Alt" ""
-			(at 123.19 149.86 0)
+			(at 133.35 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6488,7 +7032,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 123.19 149.86 0)
+			(at 133.35 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6496,11 +7040,121 @@
 			)
 		)
 		(property "MPN" ""
-			(at 123.19 149.86 0)
+			(at 133.35 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKey_Part_Number" "PTS647SN50SMTR2LFSTR-ND"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=snap"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.0 mm"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=eda"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "4 Apr 22"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "C&K"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "PTS 647 SN50 SMTR2 LFS"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C&K"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -6691,8 +7345,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS")
-		(at 123.19 163.83 0)
+		(lib_id "PTS_647_SN50_SMTR2_LFS:PTS_647_SN50_SMTR2_LFS")
+		(at 133.35 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6700,7 +7354,7 @@
 		(dnp no)
 		(uuid "562dd48a-7267-412f-9751-1cb24ef7a2f8")
 		(property "Reference" "SW10"
-			(at 143.51 154.94 0)
+			(at 143.764 154.432 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6708,35 +7362,34 @@
 			)
 		)
 		(property "Value" "SPST_BTN_A"
-			(at 143.51 157.226 0)
+			(at 143.764 156.718 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "PTS526_SK15_SMTR2_LFS:SMT_FS"
-			(at 139.7 149.86 0)
+		(property "Footprint" "PTS_647_SN50_SMTR2_LFS:SW_PTS_647_SN50_SMTR2_LFS"
+			(at 133.35 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
-			(at 139.7 149.86 0)
+		(property "Datasheet" "https://www.ckswitches.com/media/2567/pts647.pdf"
+			(at 133.35 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 123.19 163.83 0)
+			(at 133.35 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6744,17 +7397,18 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "PTS526SK15SMTR2 LFS"
-			(at 123.19 163.83 0)
+		(property "MP" "PTS647SN50SMTR2 LFS"
+			(at 133.35 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Alt" ""
-			(at 123.19 163.83 0)
+			(at 133.35 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6762,7 +7416,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 123.19 163.83 0)
+			(at 133.35 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,11 +7424,121 @@
 			)
 		)
 		(property "MPN" ""
-			(at 123.19 163.83 0)
+			(at 133.35 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKey_Part_Number" "PTS647SN50SMTR2LFSTR-ND"
+			(at 133.35 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=snap"
+			(at 133.35 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.0 mm"
+			(at 133.35 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 133.35 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=eda"
+			(at 133.35 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 133.35 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "4 Apr 22"
+			(at 133.35 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "C&K"
+			(at 133.35 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 133.35 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "PTS 647 SN50 SMTR2 LFS"
+			(at 133.35 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C&K"
+			(at 133.35 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -7132,8 +7896,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS")
-		(at 123.19 177.8 0)
+		(lib_id "PTS_647_SN50_SMTR2_LFS:PTS_647_SN50_SMTR2_LFS")
+		(at 133.35 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7141,7 +7905,7 @@
 		(dnp no)
 		(uuid "76c42194-3a27-4a9f-971b-caf07d01444d")
 		(property "Reference" "SW11"
-			(at 143.51 168.91 0)
+			(at 143.764 168.402 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7149,35 +7913,34 @@
 			)
 		)
 		(property "Value" "SPST_BTN_X"
-			(at 143.51 171.196 0)
+			(at 143.764 170.688 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "PTS526_SK15_SMTR2_LFS:SMT_FS"
-			(at 139.7 163.83 0)
+		(property "Footprint" "PTS_647_SN50_SMTR2_LFS:SW_PTS_647_SN50_SMTR2_LFS"
+			(at 133.35 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
-			(at 139.7 163.83 0)
+		(property "Datasheet" "https://www.ckswitches.com/media/2567/pts647.pdf"
+			(at 133.35 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 123.19 177.8 0)
+			(at 133.35 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7185,17 +7948,18 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "PTS526SK15SMTR2 LFS"
-			(at 123.19 177.8 0)
+		(property "MP" "PTS647SN50SMTR2 LFS"
+			(at 133.35 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Alt" ""
-			(at 123.19 177.8 0)
+			(at 133.35 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7203,7 +7967,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 123.19 177.8 0)
+			(at 133.35 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7211,11 +7975,121 @@
 			)
 		)
 		(property "MPN" ""
-			(at 123.19 177.8 0)
+			(at 133.35 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKey_Part_Number" "PTS647SN50SMTR2LFSTR-ND"
+			(at 133.35 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=snap"
+			(at 133.35 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.0 mm"
+			(at 133.35 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 133.35 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=eda"
+			(at 133.35 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 133.35 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "4 Apr 22"
+			(at 133.35 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "C&K"
+			(at 133.35 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 133.35 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "PTS 647 SN50 SMTR2 LFS"
+			(at 133.35 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C&K"
+			(at 133.35 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -7340,8 +8214,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS")
-		(at 123.19 66.04 0)
+		(lib_id "PTS_647_SN50_SMTR2_LFS:PTS_647_SN50_SMTR2_LFS")
+		(at 133.35 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7349,7 +8223,7 @@
 		(dnp no)
 		(uuid "780d8970-879e-450a-9ffe-89a48b379f08")
 		(property "Reference" "SW3"
-			(at 143.51 56.896 0)
+			(at 143.764 56.388 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7357,35 +8231,34 @@
 			)
 		)
 		(property "Value" "SPST_DPAD_LEFT"
-			(at 143.51 59.436 0)
+			(at 143.764 58.928 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "PTS526_SK15_SMTR2_LFS:SMT_FS"
-			(at 139.7 52.07 0)
+		(property "Footprint" "PTS_647_SN50_SMTR2_LFS:SW_PTS_647_SN50_SMTR2_LFS"
+			(at 133.35 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
-			(at 139.7 52.07 0)
+		(property "Datasheet" "https://www.ckswitches.com/media/2567/pts647.pdf"
+			(at 133.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 123.19 66.04 0)
+			(at 133.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7393,17 +8266,18 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "PTS526SK15SMTR2 LFS"
-			(at 123.19 66.04 0)
+		(property "MP" "PTS647SN50SMTR2 LFS"
+			(at 133.35 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Alt" ""
-			(at 123.19 66.04 0)
+			(at 133.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7411,7 +8285,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 123.19 66.04 0)
+			(at 133.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7419,11 +8293,121 @@
 			)
 		)
 		(property "MPN" ""
-			(at 123.19 66.04 0)
+			(at 133.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKey_Part_Number" "PTS647SN50SMTR2LFSTR-ND"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=snap"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.0 mm"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=eda"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "4 Apr 22"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "C&K"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "PTS 647 SN50 SMTR2 LFS"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C&K"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -8102,8 +9086,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS")
-		(at 123.19 107.95 0)
+		(lib_id "PTS_647_SN50_SMTR2_LFS:PTS_647_SN50_SMTR2_LFS")
+		(at 133.35 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8111,7 +9095,7 @@
 		(dnp no)
 		(uuid "9d3dc1b5-e521-41c0-bc24-266daeb0ecf7")
 		(property "Reference" "SW6"
-			(at 143.51 99.06 0)
+			(at 143.764 98.552 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8119,35 +9103,34 @@
 			)
 		)
 		(property "Value" "SPST_DPAD_RIGHT"
-			(at 143.51 101.346 0)
+			(at 143.764 100.838 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "PTS526_SK15_SMTR2_LFS:SMT_FS"
-			(at 139.7 93.98 0)
+		(property "Footprint" "PTS_647_SN50_SMTR2_LFS:SW_PTS_647_SN50_SMTR2_LFS"
+			(at 133.35 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
-			(at 139.7 93.98 0)
+		(property "Datasheet" "https://www.ckswitches.com/media/2567/pts647.pdf"
+			(at 133.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 123.19 107.95 0)
+			(at 133.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8155,17 +9138,18 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "PTS526SK15SMTR2 LFS"
-			(at 123.19 107.95 0)
+		(property "MP" "PTS647SN50SMTR2 LFS"
+			(at 133.35 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Alt" ""
-			(at 123.19 107.95 0)
+			(at 133.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8173,7 +9157,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 123.19 107.95 0)
+			(at 133.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8181,11 +9165,121 @@
 			)
 		)
 		(property "MPN" ""
-			(at 123.19 107.95 0)
+			(at 133.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKey_Part_Number" "PTS647SN50SMTR2LFSTR-ND"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=snap"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.0 mm"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=eda"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "4 Apr 22"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "C&K"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "PTS 647 SN50 SMTR2 LFS"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C&K"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -8972,8 +10066,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS")
-		(at 123.19 191.77 0)
+		(lib_id "PTS_647_SN50_SMTR2_LFS:PTS_647_SN50_SMTR2_LFS")
+		(at 133.35 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8981,7 +10075,7 @@
 		(dnp no)
 		(uuid "d2a8db1a-6048-4586-813c-adf360d93c74")
 		(property "Reference" "SW12"
-			(at 143.51 182.88 0)
+			(at 143.764 182.372 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8989,35 +10083,34 @@
 			)
 		)
 		(property "Value" "SPST_BTN_Y"
-			(at 143.51 185.166 0)
+			(at 143.764 184.658 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "PTS526_SK15_SMTR2_LFS:SMT_FS"
-			(at 139.7 177.8 0)
+		(property "Footprint" "PTS_647_SN50_SMTR2_LFS:SW_PTS_647_SN50_SMTR2_LFS"
+			(at 133.35 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
-			(at 139.7 177.8 0)
+		(property "Datasheet" "https://www.ckswitches.com/media/2567/pts647.pdf"
+			(at 133.35 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 123.19 191.77 0)
+			(at 133.35 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9025,17 +10118,18 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "PTS526SK15SMTR2 LFS"
-			(at 123.19 191.77 0)
+		(property "MP" "PTS647SN50SMTR2 LFS"
+			(at 133.35 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Alt" ""
-			(at 123.19 191.77 0)
+			(at 133.35 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9043,7 +10137,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 123.19 191.77 0)
+			(at 133.35 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9051,11 +10145,121 @@
 			)
 		)
 		(property "MPN" ""
-			(at 123.19 191.77 0)
+			(at 133.35 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKey_Part_Number" "PTS647SN50SMTR2LFSTR-ND"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=snap"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.0 mm"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PTS%20647%20SN50%20SMTR2%20LFS/C%2526K/view-part/?ref=eda"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "4 Apr 22"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "C&K"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "PTS 647 SN50 SMTR2 LFS"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C&K"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
 			)
 		)
 		(pin "4"
