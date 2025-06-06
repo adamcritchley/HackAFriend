@@ -9084,7 +9084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61301211121.pdf"
+		(property "Datasheet" "https://www.te.com/usa-en/product-1-1241150-2.datasheet.pdf"
 			(at 234.95 55.88 0)
 			(effects
 				(font
@@ -9102,7 +9102,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "M20-8771246"
+		(property "MP" "1-1241150-2"
 			(at 234.95 55.88 0)
 			(effects
 				(font
@@ -9282,7 +9282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61301611121.pdf"
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/tsm.pdf"
 			(at 266.7 50.8 0)
 			(effects
 				(font
@@ -9300,7 +9300,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "M20-8771642R"
+		(property "MP" "TSM-116-01-T-SV-P-TR"
 			(at 266.7 50.8 0)
 			(effects
 				(font

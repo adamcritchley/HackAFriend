@@ -5158,6 +5158,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "USB4105-GF-A"
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B7"
 			(uuid "487aee14-e4bd-463d-b84f-976948048db6")
 		)
