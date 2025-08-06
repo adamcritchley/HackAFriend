@@ -4432,12 +4432,6 @@
 		(uuid "d69e004e-4371-4ac2-b622-34a3e6814e89")
 	)
 	(junction
-		(at 118.11 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc0eea1a-9604-4d98-9fec-359e5a17a861")
-	)
-	(junction
 		(at 63.5 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4679,7 +4673,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 135.89) (xy 129.54 135.89)
+			(xy 130.81 132.08) (xy 129.54 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4749,7 +4743,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 135.89) (xy 121.92 135.89)
+			(xy 118.11 132.08) (xy 121.92 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4799,7 +4793,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 132.08) (xy 118.11 135.89)
+			(xy 118.11 132.08) (xy 118.11 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5106,16 +5100,6 @@
 			(type default)
 		)
 		(uuid "517041cc-31eb-40f1-88f8-32f5a902d7f0")
-	)
-	(wire
-		(pts
-			(xy 118.11 135.89) (xy 118.11 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5229fc73-bf60-43de-bbf5-2bd3f72d5b87")
 	)
 	(wire
 		(pts
@@ -5829,7 +5813,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 135.89) (xy 130.81 137.16)
+			(xy 130.81 132.08) (xy 130.81 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7042,7 +7026,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 125.73 135.89 270)
+		(at 125.73 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7050,7 +7034,7 @@
 		(dnp no)
 		(uuid "04db82e9-6e7f-4da9-95fc-d47126287874")
 		(property "Reference" "C4"
-			(at 122.936 134.62 90)
+			(at 122.936 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,7 +7042,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 121.92 137.16 90)
+			(at 121.92 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7066,7 +7050,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 121.92 136.8552 0)
+			(at 121.92 133.0452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7075,7 +7059,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C81C106MA73-01.pdf"
-			(at 125.73 135.89 0)
+			(at 125.73 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7084,7 +7068,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 125.73 135.89 0)
+			(at 125.73 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7093,7 +7077,7 @@
 			)
 		)
 		(property "MP" "GRM188C81C106MA73D"
-			(at 125.73 135.89 90)
+			(at 125.73 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7102,7 +7086,7 @@
 			)
 		)
 		(property "Alt" ""
-			(at 125.73 135.89 0)
+			(at 125.73 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7110,7 +7094,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 125.73 135.89 0)
+			(at 125.73 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7118,7 +7102,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 125.73 135.89 0)
+			(at 125.73 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8400,7 +8384,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 130.81 137.16 0)
+		(at 130.81 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8408,7 +8392,7 @@
 		(dnp no)
 		(uuid "5c34fb88-6314-4b38-8a7e-c6c4356b512a")
 		(property "Reference" "#PWR010"
-			(at 130.81 143.51 0)
+			(at 130.81 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8417,7 +8401,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.842 140.97 0)
+			(at 132.842 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8426,7 +8410,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 137.16 0)
+			(at 130.81 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8435,7 +8419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 137.16 0)
+			(at 130.81 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8444,7 +8428,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 137.16 0)
+			(at 130.81 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
