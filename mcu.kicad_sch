@@ -4460,17 +4460,12 @@
 		(uuid "abb48696-4080-4782-9bee-092386678ca2")
 	)
 	(no_connect
+		(at 135.89 48.26)
+		(uuid "ae47b1f4-d2bf-4cf2-a587-c95d20a7c4df")
+	)
+	(no_connect
 		(at 135.89 68.58)
 		(uuid "d1bcc421-3ed7-40f6-a4fe-907abad6af48")
-	)
-	(bus_entry
-		(at 154.94 48.26)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28579dea-df6c-4982-afe4-c2e3630b7f53")
 	)
 	(bus_entry
 		(at 55.88 58.42)
@@ -4516,15 +4511,6 @@
 			(type default)
 		)
 		(uuid "707242b9-fd26-4054-b19f-1f5a4f2a2d09")
-	)
-	(bus_entry
-		(at 157.48 48.26)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beb083b3-d3de-4789-a4a6-1e7fa868173e")
 	)
 	(bus_entry
 		(at 129.54 179.07)
@@ -4620,16 +4606,6 @@
 			(type default)
 		)
 		(uuid "0790825f-4d5d-4f96-a9a4-87c7991f1181")
-	)
-	(bus
-		(pts
-			(xy 157.48 53.34) (xy 160.02 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07d139a6-d0ef-4b20-a597-20c8ec99ac71")
 	)
 	(wire
 		(pts
@@ -5073,7 +5049,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 45.72) (xy 154.94 45.72)
+			(xy 135.89 45.72) (xy 138.43 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5090,16 +5066,6 @@
 			(type default)
 		)
 		(uuid "50e50452-bbea-4223-b5f4-8b28968e706d")
-	)
-	(bus
-		(pts
-			(xy 157.48 48.26) (xy 157.48 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "517041cc-31eb-40f1-88f8-32f5a902d7f0")
 	)
 	(wire
 		(pts
@@ -5450,16 +5416,6 @@
 			(type default)
 		)
 		(uuid "8b8a6d67-ac53-464e-a6ac-1291bbaeeff3")
-	)
-	(bus
-		(pts
-			(xy 157.48 50.8) (xy 157.48 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c13c4ce-da65-457e-90b8-71593c93c3c6")
 	)
 	(wire
 		(pts
@@ -5830,16 +5786,6 @@
 			(type default)
 		)
 		(uuid "c57f0869-fd27-42ae-b691-57ec8653210d")
-	)
-	(wire
-		(pts
-			(xy 135.89 48.26) (xy 154.94 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7c77cc1-4fe7-46d9-92a9-12fd466f06da")
 	)
 	(wire
 		(pts
@@ -6261,16 +6207,6 @@
 		)
 		(uuid "4b7fa759-2763-4041-9727-6f3b93c7c017")
 	)
-	(label "MOTOR_DRV.GPI0"
-		(at 137.16 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50958bff-7913-47ea-8f99-e2abb97013bd")
-	)
 	(label "RXD"
 		(at 255.27 66.04 0)
 		(effects
@@ -6450,16 +6386,6 @@
 			(justify right bottom)
 		)
 		(uuid "8c5a849d-095e-4ae0-833c-bfb1a3d6af50")
-	)
-	(label "MOTOR_DRV.IRQ"
-		(at 137.16 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ef3d22c-eb7c-4852-aba0-938249551e4e")
 	)
 	(label "NEOPIXEL"
 		(at 227.33 100.33 0)
@@ -6925,16 +6851,16 @@
 		)
 		(uuid "293ec947-8488-4fea-a0d4-c76cddc95082")
 	)
-	(hierarchical_label "MOTOR_DRV{PWM}"
+	(hierarchical_label "MOTOR_PWM"
 		(shape output)
-		(at 160.02 53.34 0)
+		(at 138.43 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "3c15d80c-06aa-4358-a365-96483c1185df")
+		(uuid "5940561c-ffe5-427d-a438-a2452e0a58e4")
 	)
 	(hierarchical_label "AUDIO_TX{I2S}"
 		(shape output)

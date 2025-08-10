@@ -1195,6 +1195,16 @@
 		)
 		(uuid "33de34dc-9be7-406b-ae3b-bf2e6a9e197b")
 	)
+	(wire
+		(pts
+			(xy 173.99 69.85) (xy 189.23 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381aaca6-c1cf-416e-9210-f89c3ac7a8d0")
+	)
 	(bus
 		(pts
 			(xy 115.57 76.2) (xy 130.81 76.2)
@@ -1314,16 +1324,6 @@
 			(type default)
 		)
 		(uuid "9afee8d0-6041-4a4e-abbd-c601a607127a")
-	)
-	(bus
-		(pts
-			(xy 173.99 69.85) (xy 189.23 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab17b505-c703-4e78-9aa7-5ecebe84d5e8")
 	)
 	(wire
 		(pts
@@ -2963,16 +2963,6 @@
 				(justify left)
 			)
 		)
-		(pin "MOTOR_DRV{PWM}" output
-			(at 173.99 69.85 0)
-			(uuid "7cd51b51-8fc1-44db-954d-fd18f877bf73")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "~{INPUT_IRQ}" input
 			(at 173.99 74.93 0)
 			(uuid "2347541c-2582-43a2-a2f9-06e477cd77c4")
@@ -3001,6 +2991,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "MOTOR_PWM" output
+			(at 173.99 69.85 0)
+			(uuid "2aedf3cf-810c-4c4c-b5f7-f48266037ad9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -3074,9 +3074,9 @@
 				(justify left)
 			)
 		)
-		(pin "MOTOR_DRV{PWM}" input
-			(at 189.23 69.85 180)
-			(uuid "fd096eef-4629-4e80-a1bc-c4d07705ff99")
+		(pin "~{INPUT_IRQ}" output
+			(at 189.23 74.93 180)
+			(uuid "459c530b-5054-4c2e-bc16-fa8454668c5b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,9 +3084,9 @@
 				(justify left)
 			)
 		)
-		(pin "~{INPUT_IRQ}" output
-			(at 189.23 74.93 180)
-			(uuid "459c530b-5054-4c2e-bc16-fa8454668c5b")
+		(pin "MOTOR_PWM" input
+			(at 189.23 69.85 180)
+			(uuid "36530a31-c64e-44f4-acf7-b7b517a31b4c")
 			(effects
 				(font
 					(size 1.27 1.27)
