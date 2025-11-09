@@ -1742,231 +1742,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GP0115ACCG30:GP0115ACCG30"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 7.62 4.445 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "GP0115ACCG30"
-				(at 0 6.985 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SW_GP0115ACCG30_NKK"
-				(at 0 6.985 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "GP0115ACCG30"
-				(at 0 6.985 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "GP0115ACCG30"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW_GP0115ACCG30_NKK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GP0115ACCG30_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0) (xy 11.557 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.572 0)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 11.43 0)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 0) (xy 11.43 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GP0115ACCG30_1_1"
-				(rectangle
-					(start 2.54 3.302)
-					(end 12.7 -4.318)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 6.35 -7.62 90)
-					(length 4)
-					(name "GND"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 -7.62 90)
-					(length 4)
-					(name "GND"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "NJM2884U1_33_TE1:NJM2884U1-33-TE1"
 			(pin_names
 				(offset 0.254)
@@ -2139,6 +1914,156 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2939,12 +2864,6 @@
 		(uuid "7b9e4a83-3a8e-48db-83ca-e4baec9af22c")
 	)
 	(junction
-		(at 39.37 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7fbaf6de-87f2-49f8-9eca-8d5af63bd962")
-	)
-	(junction
 		(at 100.33 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2985,12 +2904,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d39313bb-10b7-4c43-8ff1-58ff33bdc232")
-	)
-	(junction
-		(at 48.26 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "edfb555b-d8e9-43a6-98b2-ef4d0c5b6ca8")
 	)
 	(junction
 		(at 128.27 146.05)
@@ -3163,16 +3076,6 @@
 			(type default)
 		)
 		(uuid "2164d660-2e6d-43c5-bfff-fe73278a5298")
-	)
-	(wire
-		(pts
-			(xy 57.15 46.99) (xy 58.42 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21b9981f-3204-4798-bff3-558139592733")
 	)
 	(wire
 		(pts
@@ -3506,7 +3409,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 46.99) (xy 41.91 46.99)
+			(xy 39.37 46.99) (xy 44.45 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3553,16 +3456,6 @@
 			(type default)
 		)
 		(uuid "84150957-b950-4e49-9c00-b2a53e6a346b")
-	)
-	(wire
-		(pts
-			(xy 39.37 54.61) (xy 48.26 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "852a44e3-722d-45ce-ab9a-c6cc78d3883a")
 	)
 	(wire
 		(pts
@@ -3623,16 +3516,6 @@
 			(type default)
 		)
 		(uuid "93c6dc25-ce95-4972-b045-4543620ac592")
-	)
-	(wire
-		(pts
-			(xy 48.26 54.61) (xy 50.8 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "954c19f5-4011-4cd5-ba52-ec1763ab0bc6")
 	)
 	(wire
 		(pts
@@ -3716,7 +3599,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 46.99) (xy 39.37 54.61)
+			(xy 39.37 46.99) (xy 39.37 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3866,6 +3749,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 46.99) (xy 58.42 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9302c6d-441c-4bea-ab44-134dbd137483")
+	)
+	(wire
+		(pts
 			(xy 120.65 146.05) (xy 128.27 146.05)
 		)
 		(stroke
@@ -3883,16 +3776,6 @@
 			(type default)
 		)
 		(uuid "dd1246c2-f9e7-4870-8da2-82ed7c524a33")
-	)
-	(wire
-		(pts
-			(xy 39.37 54.61) (xy 39.37 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd42b280-d087-47a7-909c-e99447d040f6")
 	)
 	(wire
 		(pts
@@ -4107,6 +3990,74 @@
 			(justify left)
 		)
 		(uuid "cdc0e690-f4c0-430d-9709-4e8df4b82f0c")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 49.53 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00e71e19-7517-4b5b-885e-0caabe1249c7")
+		(property "Reference" "SW1"
+			(at 49.53 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 49.53 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-315x_Angled"
+			(at 49.53 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 49.53 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2f268d7-3868-4642-9e97-e5d80eef6fab")
+		)
+		(pin "1"
+			(uuid "d4e8e228-2e17-43f2-8e13-fb02e2364f85")
+		)
+		(instances
+			(project ""
+				(path "/000b185d-3cb3-4b02-ba95-82af8e0bb160/d2aaa24e-aace-4a2d-94e1-427822a5d83f"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
@@ -4880,115 +4831,6 @@
 		)
 	)
 	(symbol
-		(lib_id "GP0115ACCG30:GP0115ACCG30")
-		(at 41.91 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cbd404e-1993-48df-9e8b-aabfbe6e63c2")
-		(property "Reference" "SW1"
-			(at 49.53 39.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "GP0115ACCG30"
-			(at 49.53 41.91 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "GP0115ACCG30:SW_GP0115ACCG30_NKK"
-			(at 41.91 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nkkswitches.com/pdf/GP01.pdf"
-			(at 41.91 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" "GP0115ACCG30"
-			(at 41.91 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt" ""
-			(at 41.91 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 41.91 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 41.91 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "875ed455-fc4f-444c-a43a-4f058824981d")
-		)
-		(pin "4"
-			(uuid "7387c233-95f5-4fa7-901c-88ecadf5cba9")
-		)
-		(pin "1"
-			(uuid "65384497-31b3-42de-b8a2-f736bc8caf1a")
-		)
-		(pin "3"
-			(uuid "4aa3b508-dff3-4c34-b32f-addad5479012")
-		)
-		(instances
-			(project ""
-				(path "/000b185d-3cb3-4b02-ba95-82af8e0bb160/d2aaa24e-aace-4a2d-94e1-427822a5d83f"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 110.49 149.86 180)
 		(unit 1)
@@ -5684,7 +5526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/tc-series.pdf"
+		(property "Datasheet" "~"
 			(at 231.14 125.73 0)
 			(effects
 				(font
@@ -5693,7 +5535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 231.14 125.73 0)
 			(effects
 				(font
