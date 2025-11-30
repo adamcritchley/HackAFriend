@@ -8756,6 +8756,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "DRV2605LDGSR"
+			(at 227.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "f448a483-4736-4fec-be48-2abd9ba2fa0a")
 		)

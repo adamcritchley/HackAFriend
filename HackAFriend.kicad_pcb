@@ -8083,6 +8083,19 @@
 				)
 			)
 		)
+		(property "MP" "B3F-3155"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc034d44-dcaf-4d84-b0c2-2ce9c9ffa539")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d2aaa24e-aace-4a2d-94e1-427822a5d83f/00e71e19-7517-4b5b-885e-0caabe1249c7")
 		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
@@ -10578,6 +10591,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "DRV2605LDGSR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08a8e331-8cb1-4f85-b209-326dc43b5449")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -48270,6 +48296,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "LED2"
+		(at 92.351905 105.7 0)
+		(layer "F.SilkS")
+		(uuid "51693da8-dbbe-42f5-aa86-1b755c4ccdda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SCL"
 		(at 193.4198 117.93 0)
 		(layer "F.SilkS")
@@ -48398,6 +48437,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "LED1"
+		(at 84.493005 105.7 0)
+		(layer "F.SilkS")
+		(uuid "ca897ac9-a7b0-4875-939f-3f63328a32a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "3V3"
 		(at 189.1048 100.72 0)
 		(layer "F.SilkS")
@@ -48449,7 +48501,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Hack-A-Friend\nVersion 1.0"
+	(gr_text "Hack-A-Friend\nVersion 0.9"
 		(at 108.9848 119.88 0)
 		(layer "B.SilkS")
 		(uuid "c3222dd0-4bac-45bb-9237-7671b1605311")
@@ -50247,7 +50299,7 @@
 		(uuid "5fb12e47-6c33-46bc-8c7f-15eb53354e82")
 	)
 	(via
-		(at 119.0698 94.22)
+		(at 118.769561 94.216989)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -50343,7 +50395,7 @@
 		(uuid "6b26fe90-5d4b-4669-a51a-cd5583f9486f")
 	)
 	(via
-		(at 117.9598 87.2)
+		(at 117.838436 87.199811)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -50519,7 +50571,7 @@
 		(uuid "7e6978d6-1c7e-4412-afa9-edb9f99e1cf2")
 	)
 	(via
-		(at 135.0898 94.22)
+		(at 135.340897 94.216989)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -51498,7 +51550,7 @@
 		(uuid "f900fa3a-24db-4da0-863b-6beeb82e08b1")
 	)
 	(via
-		(at 126.8798 94.22)
+		(at 127.298131 94.216989)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
